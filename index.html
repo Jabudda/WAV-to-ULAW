@@ -208,7 +208,7 @@
   <main>
     <h1>VCC Audio Converter</h1>
     <p class="subtitle">
-      Convert WAV files into phone-system-ready U-Law audio. This version uses the browser audio decoder first, then writes a clean U-Law WAV.
+      Convert WAV files into phone-system-ready U-Law audio. This version uses the browser audio decoder first, then writes a U-Law WAV.
     </p>
 
     <section class="format-box" aria-label="Output format">
@@ -239,12 +239,10 @@
     <div id="status" class="status">Ready. Select a WAV file to begin.</div>
 
     <section class="notes">
+      <p>  <strong>🔒Privacy Note:</strong> The file is processed locally in your browser and remains locked in the vault.🛡️      </p>
       <p>
-        <strong>Privacy note:</strong> The file is processed locally in your browser. It is not uploaded to a server.
-      </p>
-      <p>
-        <strong>Compatibility note:</strong> This version uses your browser’s built-in audio decoder, which handles more WAV variations than a simple WAV parser.
-      </p>
+        <strong>🕵️Compatibility Note:</strong> This version uses your browser’s built-in audio decoder, which handles more WAV variations than a simple WAV parser.
+        In plain English: if a WAV file shows up wearing a fake mustache, this version will recognize it.🥸      </p>
       <p>
         Conversion target: <code>WAV • μ-Law • 8000 Hz • Mono</code>
       </p>
